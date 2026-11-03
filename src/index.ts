@@ -8,5 +8,5 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Atualização direto na main!');
+  res.send('Atualização do Pipeline CI/CD!');
 });
