@@ -8,5 +8,5 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Atualização automatizada do projeto com sucesso!');
+  res.send('Atualização direto na main!');
 });
